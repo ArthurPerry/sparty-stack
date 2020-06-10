@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  occBaseUrl: 'https://localhost:9002'
+  # occBaseUrl: 'https://localhost:9002'
+  occBaseUrl: 'https://api.cu9cj9ra-escoe29082-d9-public.model-t.cc.commerce.ondemand.com/'
 };
 
 /*

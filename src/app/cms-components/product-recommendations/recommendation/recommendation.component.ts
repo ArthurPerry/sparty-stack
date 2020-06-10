@@ -63,7 +63,7 @@ export class RecommendationComponent implements OnInit {
           }
           return this.http
             .get<any>(
-              "https://recommends.k190ac.cluster.extend.cx.cloud.sap/" + this.atype + "/" +
+              "https://recommends.k112ac.cx-coe.shoot.canary.k8s-hana.ondemand.com/" + this.atype + "/" +
               this.buiprod.code + u
             )
         }),

@@ -10,7 +10,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class PageViewedService {
-  private clickUrl = 'https://click-stream-product-recommendations-demo.k190ac.cluster.extend.cx.cloud.sap/';
+  private clickUrl = 'https://click-stream.k112ac.cx-coe.shoot.canary.k8s-hana.ondemand.com';
 
   constructor(private http: HttpClient) {
   }
